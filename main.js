@@ -9,8 +9,8 @@ const $root = document.querySelector("#root");
 $root.insertAdjacentHTML(
   "beforeend",
   `
-  ${PlayerName(1)}
-  ${PlayerName(2)}
+  ${PlayerName("Player1")}
+  ${PlayerName("Player2")}
   ${BoardGame(6)}
   `
 );
